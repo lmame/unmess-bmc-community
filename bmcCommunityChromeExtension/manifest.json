@@ -1,9 +1,14 @@
 {
   "name": "UnMess BMC Community Thread...",
   "description": "UnMess BMC Community Thread...",
-  "version": "1.7",
+  "version": "1.8",
   "manifest_version": 3,
-  "permissions": ["storage", "unlimitedStorage", "activeTab", "scripting"],
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "activeTab",
+    "scripting"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -21,5 +26,18 @@
   },
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://community.bmc.com/*"
+      ],
+      "css": [
+        "popup.css"
+      ],
+      "js": [
+        "test.js"
+      ]
+    }
+  ]
 }
