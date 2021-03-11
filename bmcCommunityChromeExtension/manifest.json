@@ -1,0 +1,25 @@
+{
+  "name": "UnMess BMC Community Thread...",
+  "description": "UnMess BMC Community Thread...",
+  "version": "1.7",
+  "manifest_version": 3,
+  "permissions": ["storage", "unlimitedStorage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/broomstick16.png",
+      "32": "/images/broomstick32.png",
+      "48": "/images/broomstick48.png",
+      "128": "/images/broomstick128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/broomstick16.png",
+    "32": "/images/broomstick32.png",
+    "48": "/images/broomstick48.png",
+    "128": "/images/broomstick128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
