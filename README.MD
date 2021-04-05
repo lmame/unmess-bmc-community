@@ -93,6 +93,7 @@ This extension is released by Laurent Matheo and "as is". There is no warranty, 
 This is not an official extension for the BMC Community but just an attempt to make it more bearable...  
 If you wish to fork, modify, use the code for something else feel free to do so :)  
 
+<br>
 
 **Icon credits:** 
  * Broomstick Icon (https://iconscout.com/icons/broomstick) by Josy Dom Alexis (https://iconscout.com/contributors/josydomalexis) on Iconscout (https://iconscout.com).
